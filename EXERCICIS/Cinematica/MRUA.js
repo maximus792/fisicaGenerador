@@ -172,7 +172,7 @@ function gen(dades) {
 
   // typeOfExercise = 0;
   // enun = 5;
-  document.querySelector(".solution").style.display = "block";
+  // document.querySelector(".solution").style.display = "block";
 
   localStorage.setItem("typeOfExercise", typeOfExercise);
   localStorage.setItem("enun", enun);

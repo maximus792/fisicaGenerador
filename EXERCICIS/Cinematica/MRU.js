@@ -118,7 +118,7 @@ function gen(dades) {
 	//PROBES
 
 	//typeOfExercise = 1;
-	enun = 5;
+	// enun = 5;
 	//document.querySelector(".solution").style.display = "block";
 
 	localStorage.setItem("typeOfExercise", typeOfExercise);
