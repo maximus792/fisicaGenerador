@@ -129,6 +129,7 @@ const data = {
     //PROVES
   
     // typeOfExercise = 0;
+    // enun = 0
     // document.querySelector(".solution").style.display = "block";
   
     localStorage.setItem("typeOfExercise", typeOfExercise);
