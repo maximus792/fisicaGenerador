@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../../css/normalize.css" />
+    
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+
+    <title>Exercicis MRUA</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <div>
+        <a class="active" href="../../index.html">Inici</a>
+        <a href="../../playground.html">Playground</a>
+      </div>
+      <select class="select" name="select"></select>
+
+      <!--
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Tipus d'Exercicis
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+
+        </ul>
+      </div>
+      -->
+    </div>
+    <div class="main-container container-fluid">
+      <div class="exercise">
+        <h1 class="title"></h1>
+        <hr>
+        <p class="enunciat"></p>
+        <p class="solution"></p>
+      </div>
+    </div>
+    <div class="container botons">
+      <button class="showSol btn btn-outline-success btn-lg">Mostrar Solució</button>
+      <button id="generar" class="btn btn-success btn-lg">GENERAR</button>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.js"
+      integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./MRU.js"></script>
+  </body>
+</html>
